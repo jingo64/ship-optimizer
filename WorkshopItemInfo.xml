@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>3818080267</PublishedFileId>
+  <Name>Ship Optimizer</Name>
+  <Description>[b]Requires Unity Mod Manager.[/b] Without it this mod won't load. Install steps are below.
+
+[h1]Ship Optimizer Config[/h1]
+Auto Design picks the best parts it can find, whether or not you can afford them. This mod adds an [b]Optimizer Config[/b] tab next to Ship Performance Data in the ship designer, where you cap how much of each resource Auto Design may spend. You get the best design you can actually build.
+
+[h2]Features[/h2]
+[list]
+[*]A limit for each ship-building resource: water, volatiles, metals, noble metals, fissiles, antimatter and exotics
+[*]Use the slider (0 up to your current stockpile) or type any amount into the box
+[*][b]No limit[/b] (the default) leaves a resource alone, so with nothing set Auto Design works exactly like the base game
+[*]A limit of [b]0[/b] keeps every part that uses that resource out of the design, e.g. an exotics-free Titan
+[*]If the limits can't be met, you get a message saying why, and the limits that were too tight get raised to the minimum that works. Press Auto Design again to use them
+[*]Hulls, roles and the game's design logic are untouched. The mod only narrows which parts Auto Design can choose from
+[*]Settings are remembered between sessions and never stored in your saves
+[/list]
+
+[h2]Installation[/h2]
+[olist]
+[*]Download [url=https://www.nexusmods.com/site/mods/21]Unity Mod Manager[/url] and run UnityModManager.exe. Pick Terra Invicta, choose the [b]DoorstopProxy[/b] method and click Install.
+[*][b]Linux / Steam Deck only:[/b] set this as Terra Invicta's launch option in Steam:
+[code]WINEDLLOVERRIDES="winhttp=n,b" %command%[/code]
+[*]Subscribe to this mod and start the game. "Ship Optimizer Config" should appear in the UMM window (Ctrl+F10).
+[/olist]
+
+[h2]How to use[/h2]
+[olist]
+[*]Open Fleets &gt; Ship Designer and pick a hull and role as usual.
+[*]Click the [b]Optimizer Config[/b] tab in the right-hand panel.
+[*]Untick [b]No limit[/b] next to anything you want to restrict, then set the amount. Slide it to 0 to leave that resource out completely.
+[*]Press [b]Autodesign[/b].
+[/olist]
+[b]Clear all limits[/b] puts everything back to No limit.
+
+[h2]Good to know[/h2]
+[list]
+[*]Crew always need some water and volatiles, so a 0 on those only removes parts and propellant that use them.
+[*]Auto Design swaps parts to fit under a limit, but it won't thin armour or change your hull, so a very tight limit on a big hull may come back as "raised the limit".
+[*]Refit Auto Design isn't affected.
+[*]Safe to add or remove mid-campaign. It changes nothing in your save.
+[/list]
+
+Tested on version 1.0.53b. It only touches the Auto Design button, so it should work alongside other mods unless they also change Auto Design.
+
+[h2]Bugs and source[/h2]
+Source code, the changelog and bug reports are on [url=https://github.com/jingo64/ship-optimizer]GitHub[/url]. If something breaks, please attach UMM's log ([i]TerraInvicta_Data/Managed/UnityModManager/Log.txt[/i]). It helps a lot.</Description>
+  <IconFileName>Ship Optimizer.png</IconFileName>
+  <Tags>
+    <string>UI</string>
+  </Tags>
+</WorkshopItemInfo>

@@ -1,7 +1,7 @@
 {
 	"Id": "ShipOptimizerConfig",
 	"DisplayName": "Ship Optimizer Config",
-	"Title": "ShipOptimizerConfig",
+	"Title": "Ship Optimizer",
 	"Author": "dmeadows",
 	"Version": "0.1.0",
 	"Requirements": [],

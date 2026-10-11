@@ -10,7 +10,8 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <TIGame Condition="'$(TIGame)' == ''">/var/home/dmeadows/.local/share/Steam/steamapps/common/Terra Invicta</TIGame>
     <TIManaged>$(TIGame)/TerraInvicta_Data/Managed</TIManaged>
-    <TIModDir>$(TIGame)/Mods/Enabled/$(AssemblyName)</TIModDir>
+    <!-- Matches the Workshop item title: the game installs subscribed mods into Mods/Enabled/<title> -->
+    <TIModDir>$(TIGame)/Mods/Enabled/Ship Optimizer</TIModDir>
   </PropertyGroup>
 
   <ItemGroup>

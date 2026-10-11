@@ -20,15 +20,17 @@ Out of the box, Auto Design picks the best parts it can find for the hull and ro
 
 The mod needs [Unity Mod Manager](https://www.nexusmods.com/site/mods/21) (UMM), version 0.24 or later.
 
+You can either subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3818080267) or install it by hand from GitHub. Both need UMM.
+
 1. **Install UMM for Terra Invicta.** Run UnityModManager.exe, pick Terra Invicta from the list, choose the **DoorstopProxy** method and click Install.
    - On Linux/Steam Deck (Proton), also set this Steam launch option for Terra Invicta:
      `WINEDLLOVERRIDES="winhttp=n,b" %command%`
      UMM's installer needs mono on Linux (`mono Console.exe` from the UMM folder works).
-2. **Download** `ShipOptimizerConfig.zip` from the [latest release](https://github.com/jingo64/ship-optimizer/releases/latest).
-3. **Extract** it into `Terra Invicta/Mods/Enabled/`, so you end up with `Mods/Enabled/ShipOptimizerConfig/ShipOptimizerConfig.dll` and `ModInfo.json`.
+2. **Subscribe** on the Workshop and skip to step 4, or **download** `ShipOptimizerConfig.zip` from the [latest release](https://github.com/jingo64/ship-optimizer/releases/latest).
+3. **Extract** it into `Terra Invicta/Mods/Enabled/`, so you end up with `Mods/Enabled/Ship Optimizer/ShipOptimizerConfig.dll` and `ModInfo.json`.
 4. Start the game. Ship Optimizer Config should appear in the UMM window (Ctrl+F10).
 
-To uninstall, delete the `ShipOptimizerConfig` folder, or switch the mod off in UMM.
+To uninstall, unsubscribe (or delete the `Ship Optimizer` folder), or switch the mod off in UMM.
 
 ## Usage
 
