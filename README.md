@@ -62,3 +62,7 @@ dotnet build -c Release -p:TIGame="/path/to/Terra Invicta" -p:Deploy=true
 ## Feedback
 
 Bug reports and suggestions are welcome in [Issues](https://github.com/jingo64/ship-optimizer/issues). If something goes wrong, UMM's log (`TerraInvicta_Data/Managed/UnityModManager/Log.txt`) is the most useful thing to attach.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
