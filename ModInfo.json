@@ -1,0 +1,14 @@
+{
+	"Id": "ShipOptimizerConfig",
+	"DisplayName": "Ship Optimizer Config",
+	"Title": "ShipOptimizerConfig",
+	"Author": "dmeadows",
+	"Version": "0.1.0",
+	"Requirements": [],
+	"ManagerVersion": "0.24.0.0",
+	"AssemblyName": "ShipOptimizerConfig.dll",
+	"EntryMethod": "ShipOptimizerConfig.Main.Load",
+	"ModURL": "https://github.com/jingo64/ship-optimizer",
+	"HomePage": "https://github.com/jingo64/ship-optimizer",
+	"Description": "Adds an Optimizer Config tab to the ship designer so Auto Design can be limited to the resources you choose."
+}
